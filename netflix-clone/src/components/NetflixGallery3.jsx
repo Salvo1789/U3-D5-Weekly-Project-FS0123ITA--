@@ -26,7 +26,7 @@ class NetflixGallery3 extends Component {
 
   render() {
     return (
-      <Container fluid className="px-3">
+      <Container fluid className="my-3">
         <Row className="g-3">
           <h2 className="mt-5 text-light">Batman</h2>
           {this.state.isLoading && !this.state.error && (
