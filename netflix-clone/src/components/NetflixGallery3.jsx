@@ -28,7 +28,7 @@ class NetflixGallery3 extends Component {
     return (
       <Container fluid className="px-3">
         <Row className="g-3">
-          <h2 className="mt-5">Batman</h2>
+          <h2 className="mt-5 text-light">Batman</h2>
           {this.state.isLoading && !this.state.error && (
             <div className="d-flex justify-content-center">
               <Spinner animation="border" role="status">
