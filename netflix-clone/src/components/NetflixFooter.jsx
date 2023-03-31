@@ -5,7 +5,7 @@ import { Container, Row, Col, Nav } from "react-bootstrap";
 const NetflixFooter = () => (
   <Container>
     <Row>
-      <Col md={3}>
+      <Col xs={6} sm={4} md={3}>
         <Nav>
           <li className="nav-item">
             <svg
@@ -69,7 +69,7 @@ const NetflixFooter = () => (
           </li>
         </Nav>
       </Col>
-      <Col md={3}>
+      <Col xs={6} sm={4} md={3}>
         <Nav>
           <Nav.Link className="text-muted">Audio Description</Nav.Link>
 
@@ -78,7 +78,7 @@ const NetflixFooter = () => (
           <Nav.Link className="text-muted">Legal Notices</Nav.Link>
         </Nav>
       </Col>
-      <Col md={3}>
+      <Col xs={6} sm={4} md={3}>
         <Nav>
           <Nav.Link className="text-muted">Help Center</Nav.Link>
 
@@ -87,7 +87,7 @@ const NetflixFooter = () => (
           <Nav.Link className="text-muted">Cookie Preferences</Nav.Link>
         </Nav>
       </Col>
-      <Col md={3}>
+      <Col xs={6} sm={4} md={3}>
         <Nav>
           <Nav.Link className="text-muted">Gift Cards</Nav.Link>
 
