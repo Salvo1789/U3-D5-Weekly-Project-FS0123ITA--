@@ -37,7 +37,7 @@ class NetflixGallery2 extends Component {
             </div>
           )}
           {this.state.movies.map((film, index) => (
-            <Col xs={6} md={2} key={`films-${index}`}>
+            <Col xs={6} sm={4} md={2} key={`films-${index}`}>
               <img
                 src={film.Poster}
                 alt={film.Title}
